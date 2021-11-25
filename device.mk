@@ -130,7 +130,8 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product-if-exists, device/xiaomi/surya-miuicamera/config.mk)
 
 PRODUCT_PACKAGES += \
-    libpiex_shim
+    libpiex_shim \
+    persist.vendor.camera.perflock.enable=0
 
 # Display
 PRODUCT_PACKAGES += \
