@@ -521,6 +521,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.media.audio.common.types-V2-cpp \
     android.hardware.wifi-service \
+    android.media.audio.common.types-V2-cpp \
     hostapd \
     ipacm \
     IPACM_cfg.xml \
