@@ -396,6 +396,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
+    
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Sensors
 PRODUCT_PACKAGES += \
