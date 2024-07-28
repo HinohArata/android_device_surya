@@ -20,6 +20,9 @@ power.saving.mode=1
 # Charger
 ro.charger.enable_suspend=true
 
+# Camera
+persist.sys.cam.skip_detach_image=true
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
