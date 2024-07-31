@@ -32,6 +32,9 @@ PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 # Signing
 -include vendor/private-keys/keys/keys.mk
 
+# XiaomiParts
+$(call inherit-product-if-exists, device/xiaomi/surya/parts/parts.mk)
+
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
