@@ -23,11 +23,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 
-# GApps
-ifeq ($(WITH_GMS),true)
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
-endif
-
 # Inherit surya firmware images
 $(call inherit-product, firmware/xiaomi/surya/Android.mk)
 
